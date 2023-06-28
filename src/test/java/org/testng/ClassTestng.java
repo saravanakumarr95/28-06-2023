@@ -37,4 +37,8 @@ public class ClassTestng extends BaseClass {
 		login.click();
 	}
 
+	public void mango() {
+		System.out.println("i love mangos");
+	}
+
 }
