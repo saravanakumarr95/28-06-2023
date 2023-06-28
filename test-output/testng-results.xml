@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19086" started-at="2023-06-05T09:36:05Z" finished-at="2023-06-05T09:36:24Z">
+    <groups>
+      <group name="smoke">
+        <method signature="ClassTestng.firstMethod(java.lang.String)[pri:0, instance:org.testng.ClassTestng@2c767a52]" name="firstMethod" class="org.testng.ClassTestng"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="ClassTestng.thirdMethod(java.lang.String)[pri:0, instance:org.testng.ClassTestng@2c767a52]" name="thirdMethod" class="org.testng.ClassTestng"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test 1" duration-ms="19086" started-at="2023-06-05T09:36:05Z" finished-at="2023-06-05T09:36:24Z">
+      <class name="org.testng.ClassTestng">
+        <test-method status="PASS" signature="firstMethod(java.lang.String)[pri:0, instance:org.testng.ClassTestng@2c767a52]" name="firstMethod" duration-ms="10914" started-at="2023-06-05T09:36:05Z" finished-at="2023-06-05T09:36:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstMethod -->
+        <test-method status="PASS" signature="thirdMethod(java.lang.String)[pri:0, instance:org.testng.ClassTestng@2c767a52]" name="thirdMethod" duration-ms="8099" started-at="2023-06-05T09:36:16Z" finished-at="2023-06-05T09:36:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdMethod -->
+      </class> <!-- org.testng.ClassTestng -->
+    </test> <!-- Test 1 -->
+  </suite> <!-- Suite -->
+</testng-results>
